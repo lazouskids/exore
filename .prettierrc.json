@@ -1,0 +1,8 @@
+{
+  "tabs": true,
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "bracketSameLine": true,
+  "bracketSpacing": true
+}

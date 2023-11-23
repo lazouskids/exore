@@ -1,0 +1,40 @@
+.header {
+  border-bottom: 1px solid grey;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project_name {
+  color: #0b2c49;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.nav_link {
+  color: #0b2c49;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #0b2c49;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.nav_link:last-child {
+  margin-right: 0;
+}

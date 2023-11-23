@@ -1,0 +1,10 @@
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}

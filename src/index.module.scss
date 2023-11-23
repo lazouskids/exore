@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+li {
+  list-style-type: none;
+}
+
+body,
+html,
+#root,
+h1,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: #0b2c49;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  line-height: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+h1 {
+  font-size: 24px;
+  color: #0b2c49;
+  margin-bottom: 30px;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
